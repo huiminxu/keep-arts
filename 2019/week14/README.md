@@ -29,6 +29,16 @@ LFU最直接的应用：
 
 LFU的实现一般是采用一个固定大小的最小堆或最大堆。还有人用2个链表也实现了。文章中采用一个新的实现方案：双向链表和哈希表。
 
+#### 总结
+
+LFU：Least Frequently Used 最少使用
+
+MRU：Most Recently Used 最近使用
+
+MFU：Most Frequently Used 最常用
+
+LRU：Least Recently Used 最近最小使用，常用于代替LFU
+
 #### 参考链接
 
 1. [An O(1) algorithm for implementing the LFU cache eviction scheme](http://dhruvbird.com/lfu.pdf)
